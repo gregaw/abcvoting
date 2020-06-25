@@ -883,7 +883,7 @@ def __seqphragmen_resolute(profile, committeesize, verbose,
                 load[v] = new_maxload[next_cand]
             else:
                 load[v] = load[v]
-        committee = sorted(committee + [next_cand])
+        committee = committee + [next_cand]
 
         # optional output
         if verbose >= 2:
