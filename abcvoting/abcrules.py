@@ -481,7 +481,7 @@ def __revseq_thiele_resolute(profile, committeesize, scorefct_str, verbose):
             print(output + "\n")
         # end of optional output
 
-    return [sorted(list(committee))]
+    return [committee]
 
 
 def compute_revseq_thiele_method(profile, committeesize,
