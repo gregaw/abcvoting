@@ -338,7 +338,7 @@ def __seq_thiele_resolute(profile, committeesize, scorefct_str, verbose):
                 output += str(max(additional_score_cand)) + ")"
             print(output + "\n")
         # end of optional output
-    return [sorted(committee)]
+    return committee
 
 
 def __seq_thiele_irresolute(profile, committeesize, scorefct_str):
